@@ -226,6 +226,10 @@ body {
         height: 250px;
     }
 
+    .left h1 {
+        font-size: 2rem;
+    }
+
     .left .desc {
         text-align: start;
         font-size: 1.2rem;
