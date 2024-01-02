@@ -114,7 +114,7 @@ body {
 
 .left,
 .right {
-    height: 60%;
+    height: 50%;
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -229,6 +229,10 @@ body {
     .left .desc {
         text-align: start;
         font-size: 1.2rem;
+    }
+
+    .right {
+        margin-top: 25px;
     }
 
     .right img {
