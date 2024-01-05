@@ -8,3 +8,13 @@ menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle("color");
 
 });
+
+
+let touch = document.querySelector(".touch");
+let links = document.querySelector(".links");
+
+touch.addEventListener('click', () => {
+
+    links.classList.toggle("open-close");
+
+})
