@@ -1,13 +1,4 @@
-.active {
-    display: none;
-}
-
-.color {
-    color: var(--color-1);
-}
-
 @media (max-width: 900px) {
-
 
     .prince {
         display: none;
@@ -21,12 +12,21 @@
         display: inline;
     }
 
+    .color {
+        color: var(--color-2);
+    }
+
     .navbar {
+        display: none;
         height: 400px;
         padding-top: 80px;
         flex-direction: column;
         gap: 25px;
         position: absolute;
+    }
+
+    .active {
+        display: flex;
     }
 
     .nav-items {
@@ -41,11 +41,15 @@
 
     .hero-section {
         flex-direction: column-reverse;
-        padding-top: 100px;
+        padding-top: 80px;
+
+
     }
 
     .hero-left {
         width: 80vw;
+        height: 200px;
+        border-top: 2px solid var(--color-2);
     }
 
     .hero-right {

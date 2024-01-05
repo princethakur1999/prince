@@ -41,10 +41,10 @@ a {
 .menu-btn {
     z-index: 999;
     position: absolute;
-    top: 4%;
+    top: 2%;
     right: 5%;
     font-size: var(--text-2);
-    color: var(--color-2);
+    color: var(--color-1);
     cursor: pointer;
     display: none;
 }
@@ -54,7 +54,7 @@ a {
     letter-spacing: 2px;
     z-index: 999;
     position: absolute;
-    top: 5%;
+    top: 2%;
     left: 5%;
     font-size: var(--text-1);
     cursor: pointer;
@@ -65,15 +65,16 @@ a {
 
 .touch {
     z-index: 999;
-    position: absolute;
-    bottom: 5%;
+    position: fixed;
+    bottom: 2%;
     right: 5%;
     font-size: var(--text-1);
     color: var(--color-2);
     background-color: var(--color-1);
-    padding: 10px;
+    padding: 12px;
     border-radius: 20px;
     cursor: pointer;
+    border: 2px solid var(--color-2);
 }
 
 .navbar {
@@ -95,7 +96,7 @@ a {
 }
 
 .nav-items {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,11 +105,12 @@ a {
 .nav-item {
     color: var(--color-2);
     font-size: var(--text-1);
-    width: 25%;
+    width: 22%;
     text-align: center;
     padding: 5px;
     transition: 0.2s;
     border: 1px solid var(--color-2);
+    border-radius: 10px;
 }
 
 .nav-item:hover {
