@@ -1,0 +1,55 @@
+.active {
+    display: none;
+}
+
+.color {
+    color: var(--color-1);
+}
+
+@media (max-width: 900px) {
+
+
+    .prince {
+        display: none;
+    }
+
+    .logo {
+        display: inline;
+    }
+
+    .menu-btn {
+        display: inline;
+    }
+
+    .navbar {
+        height: 400px;
+        padding-top: 80px;
+        flex-direction: column;
+        gap: 25px;
+        position: absolute;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+
+    .hero-section {
+        flex-direction: column-reverse;
+        padding-top: 100px;
+    }
+
+    .hero-left {
+        width: 80vw;
+    }
+
+    .hero-right {
+        width: 80vw;
+        border-radius: 50px 50px 0 0;
+    }
+}
