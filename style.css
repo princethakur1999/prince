@@ -224,7 +224,7 @@ a {
     align-items: center;
     gap: 50px;
     height: auto;
-    width: 90%;
+    width: 95%;
     padding-block: 50px;
     background-color: var(--color-1);
     border-radius: 20px;
@@ -232,19 +232,19 @@ a {
 
 .title-1 {
     font-size: var(--text-2);
+    font-weight: 700;
     color: var(--color-1);
     background-color: var(--color-2);
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 10px;
     text-align: center;
-    width: 260px;
+    width: 220px;
 }
 
 .para {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     text-align: center;
-    line-height: 24px;
+    line-height: 28px;
     color: var(--color-2);
 }
 
@@ -265,12 +265,12 @@ a {
 
 .title-2 {
     font-size: var(--text-2);
+    font-weight: 700;
     color: var(--color-2);
     background-color: var(--color-1);
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 10px;
     text-align: center;
-    width: 260px;
+    width: 220px;
 }
 
 .grid {
@@ -281,7 +281,6 @@ a {
     justify-items: stretch;
     align-items: stretch;
     row-gap: 50px;
-    margin-bottom: 70px;
     padding-block: 40px;
 }
 
@@ -313,7 +312,7 @@ footer {
     margin-top: 60px;
     height: 200px;
     width: 100%;
-    background-color: rgb(30, 30, 43);
+    background-color: rgb(11, 11, 32);
     color: var(--color-2);
     padding: 30px;
     text-align: center;
