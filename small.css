@@ -91,6 +91,12 @@
 /* Media query for even smaller screens */
 @media screen and (min-width: 900px) {
 
+    .hero-section {
+
+        margin-top: 50px;
+    }
+
+
     .navbar {
         position: fixed;
         top: 0;
