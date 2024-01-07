@@ -50,6 +50,9 @@ a {
     scale: 1.2;
 }
 
+
+
+
 .container {
     height: 100vh;
     width: 100vw;
@@ -59,7 +62,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--color-2);
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -307,6 +309,60 @@ a {
 }
 
 
+.projects-section {
+    height: auto;
+    width: 80%;
+    margin-top: 80px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid var(--color-1);
+    border-radius: 10px;
+
+}
+
+.projects {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    gap: 50px;
+    padding-block: 40px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--color-1);
+    padding: 40px 10px;
+    border-radius: 20px;
+}
+
+.project-title {
+    font-size: var(--text-1);
+    font-weight: 600;
+    width: 100%;
+    color: var(--color-2);
+    background-color: var(--color-1);
+    padding: 10px;
+    text-align: center;
+    width: 220px;
+}
+
+.project-image {
+    width: 300px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
 
 footer {
     margin-top: 60px;
@@ -314,6 +370,6 @@ footer {
     width: 100%;
     background-color: rgb(11, 11, 32);
     color: var(--color-2);
-    padding: 30px;
+    padding: 50px;
     text-align: center;
 }
