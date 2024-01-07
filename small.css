@@ -88,6 +88,10 @@
         width: 350px;
     }
 
+    .about-section img {
+        width: 280px;
+    }
+
 }
 
 /* Media query for even smaller screens */

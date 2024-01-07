@@ -161,7 +161,7 @@ a {
     padding: 5px;
     transition: 0.2s;
     border: 1px solid var(--color-2);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .nav-item:hover {
@@ -171,9 +171,13 @@ a {
 
 .cv {
     padding: 8px 15px;
-    background-color: white;
+    background-color: var(--color-2);
     border-radius: 20px;
-    color: var(--color-1);
+    color: var(--color-3);
+}
+
+.cv:hover {
+    background-color: rgb(80, 255, 80);
 }
 
 
@@ -184,6 +188,7 @@ a {
     justify-content: space-around;
     align-items: center;
 }
+
 
 
 
@@ -201,9 +206,29 @@ a {
     gap: 20px;
 }
 
+
 .hero-left h2 {
     font-size: var(--text-2);
     text-transform: capitalize;
+}
+
+#typing {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid black;
+    /* You can adjust the styling of the typing cursor */
+    animation: typing 2s steps(20) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
 
 
@@ -280,7 +305,7 @@ a {
 
 .hero-right {
     height: 75%;
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,7 +330,11 @@ a {
     width: 80%;
     padding-block: 50px;
     border-radius: 20px;
-    border: 1px solid var(--color-1);
+    border: 1px dashed var(--color-1);
+}
+
+.about-section img {
+    width: 500px;
 }
 
 .title {
@@ -337,7 +366,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    border: 1px solid var(--color-1);
+    border: 1px dashed var(--color-1);
     border-radius: 10px;
 }
 
@@ -387,7 +416,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    border: 1px solid var(--color-1);
+    border: 1px dashed var(--color-1);
     border-radius: 10px;
 }
 
@@ -438,11 +467,38 @@ a {
 }
 
 
+.services {
+    height: auto;
+    width: 80%;
+    margin-top: 80px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: 1px dashed var(--color-1);
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+
+
+.services ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: var(--color-1);
+}
+
+li::marker {
+    content: "✅";
+}
+
+
 footer {
     margin-top: 60px;
     height: 200px;
     width: 100%;
-    background-color: rgb(11, 11, 32);
+    background-color: #001f;
     color: var(--color-2);
     padding: 50px;
     text-align: center;
