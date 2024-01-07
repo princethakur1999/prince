@@ -204,17 +204,74 @@ a {
     text-transform: capitalize;
 }
 
+
+.mail {
+    padding: 8px 16px;
+    font-size: 18px;
+    background-color: var(--color-2);
+    border-radius: 10px;
+    color: var(--color-1);
+    width: 50%;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.mail::before {
+    content: "✉️";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(0, 0, 0), navy);
+    transition: left 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-2);
+}
+
+.mail:hover::before {
+    left: 0;
+}
+
 .btn {
     padding: 8px 16px;
     font-size: 18px;
     background-color: var(--color-2);
     border-radius: 10px;
     color: var(--color-1);
-    width: 60%;
+    width: 50%;
     text-align: center;
     font-weight: 700;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
 }
 
+.btn::before {
+    content: "❤️";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(0, 0, 0), navy);
+    transition: left 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-2);
+}
+
+.btn:hover::before {
+    left: 0;
+}
 
 
 .hero-right {
@@ -241,36 +298,36 @@ a {
     align-items: center;
     gap: 50px;
     height: auto;
-    width: 95%;
+    width: 80%;
     padding-block: 50px;
-    background-color: var(--color-1);
     border-radius: 20px;
+    border: 1px solid var(--color-1);
 }
 
-.title-1 {
+.title {
     font-size: var(--text-2);
     font-weight: 700;
-    color: var(--color-1);
-    background-color: var(--color-2);
+    color: var(--color-2);
+    background-color: var(--color-1);
     padding: 10px;
     text-align: center;
     width: 220px;
 }
 
 .para {
-    width: 95%;
+    width: 100%;
+    padding: 10px;
     margin: 0 auto;
     text-align: center;
     line-height: 28px;
-    color: var(--color-2);
+    color: var(--color-3);
 }
 
-/* Default styles */
 .skills-section {
     height: auto;
     width: 80%;
     margin-top: 80px;
-    padding-block: 20px;
+    padding-block: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -280,15 +337,7 @@ a {
     border-radius: 10px;
 }
 
-.title-2 {
-    font-size: var(--text-2);
-    font-weight: 700;
-    color: var(--color-2);
-    background-color: var(--color-1);
-    padding: 10px;
-    text-align: center;
-    width: 220px;
-}
+
 
 .grid {
     height: 100%;
@@ -328,7 +377,7 @@ a {
     height: auto;
     width: 80%;
     margin-top: 80px;
-    padding: 20px;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -336,7 +385,6 @@ a {
     gap: 50px;
     border: 1px solid var(--color-1);
     border-radius: 10px;
-
 }
 
 .projects {
@@ -355,7 +403,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
     background-color: var(--color-1);
     padding: 40px 10px;
     border-radius: 20px;
@@ -370,12 +418,19 @@ a {
     padding: 10px;
     text-align: center;
     width: 220px;
+    border-bottom: 2px solid var(--color-2);
 }
 
 .project-image {
     width: 300px;
     aspect-ratio: 1/1;
     object-fit: cover;
+    transition: 0.2s ease-in-out;
+    border-radius: 20px;
+}
+
+.project-image:hover {
+    transform: scale(1.1);
 }
 
 
