@@ -14,6 +14,17 @@
     --text-3: 3rem;
 }
 
+.bar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    width: 100%;
+    background-color: var(--color-1);
+}
+
 a {
     text-decoration: none;
 }
@@ -74,11 +85,11 @@ a {
 
 .menu-btn {
     z-index: 999;
-    position: absolute;
+    position: fixed;
     top: 2%;
     right: 5%;
     font-size: var(--text-2);
-    color: var(--color-1);
+    color: var(--color-2);
     cursor: pointer;
     display: none;
 }
@@ -87,7 +98,7 @@ a {
     color: var(--color-2);
     letter-spacing: 2px;
     z-index: 999;
-    position: absolute;
+    position: fixed;
     top: 2%;
     left: 5%;
     font-size: var(--text-1);
@@ -119,6 +130,10 @@ a {
     padding: 20px 40px;
     background-color: var(--color-1);
     height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 

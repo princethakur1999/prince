@@ -12,9 +12,6 @@
         display: inline;
     }
 
-    .color {
-        color: var(--color-2);
-    }
 
     .navbar {
         display: none;
@@ -22,7 +19,14 @@
         padding-top: 80px;
         flex-direction: column;
         gap: 25px;
-        position: absolute;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .bar {
+        display: inline;
     }
 
     .active {
@@ -109,11 +113,4 @@
         margin-top: 50px;
     }
 
-
-    .navbar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-    }
 }
