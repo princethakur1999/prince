@@ -46,6 +46,7 @@
     .hero-section {
         flex-direction: column-reverse;
         padding-top: 80px;
+        align-items: center;
 
 
     }
