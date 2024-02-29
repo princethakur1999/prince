@@ -146,7 +146,7 @@ a {
 }
 
 .nav-items {
-    width: 40%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -154,8 +154,8 @@ a {
 
 .nav-item {
     color: var(--color-2);
-    font-size: var(--text-1);
-    width: 18%;
+    font-size: 16px;
+    width: 16%;
     text-align: center;
     padding: 5px;
     transition: 0.2s;
@@ -173,10 +173,13 @@ a {
     background-color: var(--color-2);
     border-radius: 20px;
     color: var(--color-3);
+    font-weight: 700;
 }
 
 .cv:hover {
-    background-color: rgb(80, 255, 80);
+    background-color: rgb(80, 200, 80);
+    color: var(--color-2);
+    font-weight: 700;
 }
 
 
@@ -236,7 +239,7 @@ a {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: rgb(80, 255, 80);
+    background-color: rgb(80, 200, 80);
     transition: left 0.3s ease-in-out;
     display: flex;
     justify-content: center;
@@ -276,7 +279,7 @@ a {
     width: 80%;
     padding-block: 50px;
     border-radius: 20px;
-    border: 1px dashed var(--color-1);
+    background-color: paleturquoise;
 }
 
 .about-section img {
@@ -299,7 +302,7 @@ a {
     margin: 0 auto;
     text-align: center;
     line-height: 28px;
-    color: var(--color-3);
+    color: rgb(44, 40, 40);
 }
 
 .skills-section {
@@ -312,7 +315,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    border: 1px dashed var(--color-1);
+    background-color: paleturquoise;
     border-radius: 10px;
 }
 
@@ -362,7 +365,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    border: 1px dashed var(--color-1);
+    border: 1px solid var(--color-1);
     border-radius: 10px;
 }
 
@@ -429,9 +432,9 @@ a {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    border: 1px dashed var(--color-1);
     border-radius: 10px;
     padding: 50px 20px;
+    background-color: paleturquoise;
 }
 
 
