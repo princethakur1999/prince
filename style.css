@@ -294,13 +294,14 @@ a {
     padding: 10px;
     text-align: center;
     width: 220px;
+    margin-top: 40px;
 }
 
 .para {
     width: 100%;
-    padding: 10px;
+    padding: 10px 50px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     line-height: 28px;
     color: rgb(44, 40, 40);
 }
@@ -421,6 +422,66 @@ a {
     transform: scale(1.1);
 }
 
+
+.certification-section {
+    height: auto;
+    width: 80%;
+    margin-top: 80px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid var(--color-1);
+    border-radius: 10px;
+}
+
+.certificates {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-block: 40px;
+}
+
+.certificate {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--color-1);
+    padding: 40px 10px;
+    border-radius: 20px;
+}
+
+.certificate-title {
+    font-size: var(--text-1);
+    font-weight: 600;
+    width: 100%;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    padding: 8px;
+    text-align: center;
+    width: 220px;
+    border-bottom: 8px solid rgb(12, 255, 12);
+}
+
+.certificate-image {
+    width: 50%;
+    object-fit: contain;
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+}
+
+.certificate-image:hover {
+    transform: scale(1.2);
+}
 
 .services {
     height: auto;
