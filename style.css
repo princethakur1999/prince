@@ -5,7 +5,7 @@
 }
 
 :root {
-  --color-1: rgb(16, 140, 122);
+  --color-1: #17b794;
   --color-2: white;
   --color-3: black;
   --text-1: 1rem;
@@ -166,7 +166,7 @@ a {
 }
 
 .cv:hover {
-  background-color: rgb(80, 200, 80);
+  background-color: #4ef037;
   color: var(--color-2);
   font-weight: 700;
 }
@@ -177,6 +177,8 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  padding-bottom: 100px;
 }
 
 .hero-left {
@@ -220,7 +222,7 @@ a {
   left: -100%;
   width: 100%;
   height: 100%;
-  background-color: rgb(80, 200, 80);
+  background-color: #4ef037;
   transition: left 0.3s ease-in-out;
   display: flex;
   justify-content: center;
@@ -259,6 +261,7 @@ a {
   padding-block: 50px;
   border-radius: 20px;
   background-color: lightcyan;
+  border: 1px solid var(--color-1);
 }
 
 .about-section img {
@@ -267,10 +270,10 @@ a {
 }
 
 .title {
-  font-size: var(--text-2);
+  font-size: var(--text-1);
   font-weight: 700;
-  color: var(--color-2);
-  background-color: var(--color-1);
+  color: var(--color-1);
+  background-color: var(--color-2);
   padding: 10px;
   text-align: center;
   width: 220px;
@@ -299,6 +302,7 @@ a {
   gap: 50px;
   background-color: lightcyan;
   border-radius: 10px;
+  border: 1px solid var(--color-1);
 }
 
 .grid {
@@ -375,23 +379,19 @@ a {
   font-size: var(--text-1);
   font-weight: 600;
   width: 100%;
+  height: 40px;
   color: var(--color-1);
-  background-color: var(--color-2);
-  padding: 8px;
-  text-align: center;
+  background-color: var(--color-3);
+  display: grid;
+  place-items: center;
   width: 220px;
-  border-bottom: 8px solid rgb(12, 255, 12);
 }
 
 .certificate-image {
   width: 50%;
   object-fit: contain;
   transition: 0.2s ease-in-out;
-  border-radius: 10px;
-}
-
-.certificate-image:hover {
-  transform: scale(1.2);
+  border-radius: 10px; 
 }
 
 .projects-section {
