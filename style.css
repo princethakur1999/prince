@@ -178,7 +178,7 @@ a {
   justify-content: space-around;
   align-items: flex-end;
   background: linear-gradient(to top, #dfe9f3 0%, white 100%);
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .hero-left {
