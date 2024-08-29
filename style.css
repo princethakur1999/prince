@@ -333,72 +333,6 @@ a {
   z-index: 99;
 }
 
-.projects-section {
-  height: auto;
-  width: 80%;
-  margin-top: 80px;
-  padding: 50px 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  border: 1px solid var(--color-1);
-  border-radius: 10px;
-}
-
-.projects {
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: stretch;
-  align-items: stretch;
-  gap: 50px;
-  padding-block: 40px;
-}
-
-.project {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  background-color: var(--color-1);
-  padding: 40px 10px;
-  border-radius: 20px;
-}
-
-.project-title {
-  font-size: var(--text-1);
-  font-weight: 600;
-  width: 100%;
-  color: var(--color-2);
-  background-color: var(--color-1);
-  padding: 10px;
-  text-align: center;
-  width: 220px;
-  border-bottom: 2px solid var(--color-2);
-}
-
-.project-image {
-  width: 300px;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  transition: 0.2s ease-in-out;
-  border-radius: 20px;
-}
-
-.description {
-  color: white;
-  width: 90%;
-  text-align: center;
-}
-
-.project-image:hover {
-  transform: scale(1.1);
-}
-
 .certification-section {
   height: auto;
   width: 80%;
@@ -459,6 +393,74 @@ a {
 .certificate-image:hover {
   transform: scale(1.2);
 }
+
+.projects-section {
+  height: auto;
+  width: 80%;
+  margin-top: 80px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border: 1px solid var(--color-1);
+  border-radius: 10px;
+  background-color: lightcyan;
+}
+
+.projects {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+  align-items: stretch;
+  gap: 50px;
+  padding-block: 40px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: var(--color-1);
+  padding: 40px 10px;
+  border-radius: 20px;
+}
+
+.project-title {
+  font-size: var(--text-1);
+  font-weight: 600;
+  width: 100%;
+  color: var(--color-2);
+  background-color: var(--color-1);
+  padding: 10px;
+  text-align: center;
+  width: 220px;
+  border-bottom: 2px solid var(--color-2);
+}
+
+.project-image {
+  width: 300px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: 0.2s ease-in-out;
+  border-radius: 20px;
+}
+
+.description {
+  color: white;
+  width: 90%;
+  text-align: center;
+}
+
+.project-image:hover {
+  transform: scale(1.1);
+}
+
 
 .services {
   height: auto;

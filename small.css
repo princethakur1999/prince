@@ -119,6 +119,11 @@
     .project-image {
         width: 220px;
     }
+
+    .para, .description, .services ul li, footer{
+        font-size: 14px;
+    }
+    
 }
 
 
